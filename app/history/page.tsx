@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
+import { AdBanner } from "@/components/ad-banner";
 import { EmptyState } from "@/components/ui/empty-state";
 import { PageHeader } from "@/components/ui/page-header";
 import { SectionCard } from "@/components/ui/section-card";
@@ -71,6 +72,8 @@ export default function HistoryPage() {
         title="Saved local analysis history"
         description="Completed mock analyses are stored locally in this browser so you can review, compare, and remove them anytime."
       />
+
+      <AdBanner />
 
       <SectionCard>
         {!hasLoaded ? (

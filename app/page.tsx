@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { AdBanner } from "@/components/ad-banner";
 import { FeatureCard } from "@/components/ui/feature-card";
 import { PageHeader } from "@/components/ui/page-header";
 import { SectionCard } from "@/components/ui/section-card";
@@ -67,6 +68,8 @@ export default function HomePage() {
           </div>
         </div>
       </SectionCard>
+
+      <AdBanner />
 
       <section className="grid gap-4 md:grid-cols-3">
         {highlights.map((item) => (

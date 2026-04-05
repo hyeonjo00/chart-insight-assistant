@@ -54,13 +54,34 @@ lib/
 
 ## Environment variables
 
-Create a `.env.local` file in the project root with:
+Create a local `.env.local` file in the project root with:
 
 ```bash
 OPENAI_API_KEY=your_openai_api_key_here
+NEXT_PUBLIC_ADSENSE_CLIENT=ca-pub-xxxxxxxxxxxxxxxx
 ```
 
-The `/api/analyze` route uses this key server-side to analyze uploaded chart screenshots with OpenAI.
+Required:
+
+- `OPENAI_API_KEY`: used only on the server by the `/api/analyze` route
+
+Optional:
+
+- `NEXT_PUBLIC_ADSENSE_CLIENT`: reserved for future AdSense integration
+
+Notes:
+
+- Do not commit `.env.local` or any real API keys to the repository
+- If a real key was ever committed, rotate it in the OpenAI dashboard before deploying
+
+## Deploying to Vercel
+
+1. Push the repository to GitHub without `.env.local`.
+2. Import the project into Vercel.
+3. In Vercel Project Settings -> Environment Variables, add:
+   - `OPENAI_API_KEY` for Production, Preview, and Development as needed
+   - `NEXT_PUBLIC_ADSENSE_CLIENT` only if you plan to use ads later
+4. Deploy normally. The existing `/api/analyze` route reads `process.env.OPENAI_API_KEY` at runtime and does not use any hardcoded or fallback demo key.
 
 ## Available scripts
 

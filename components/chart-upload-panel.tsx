@@ -9,6 +9,7 @@ import type {
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
+import { AdBanner } from "@/components/ad-banner";
 import {
   createAnalysisHistoryId,
   createHistoryImagePreview,
@@ -625,7 +626,10 @@ export function ChartUploadPanel() {
               </div>
             </div>
           ) : analysisResult ? (
-            <AnalysisResultCard result={analysisResult} onReset={handleResetAnalysis} />
+            <>
+              <AnalysisResultCard result={analysisResult} onReset={handleResetAnalysis} />
+              <AdBanner className="mt-4" variant="compact" label="Ad" />
+            </>
           ) : analysisErrorMessage ? (
             <div className="mt-4 rounded-2xl border border-rose-400/20 bg-rose-400/10 p-4">
               <p className="text-base font-semibold text-rose-100">Analysis failed</p>
