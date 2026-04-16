@@ -6,9 +6,9 @@ Chart Insight Assistant is a portfolio-ready Next.js app for uploading chart scr
 
 ## Screenshots
 
-| Home | Analyze | History |
-| --- | --- | --- |
-| ![Home](./public/readme/home.png) | ![Analyze](./public/readme/analyze.png) | ![History](./public/readme/history.png) |
+| Home | Analyze | Analysis Result | History |
+| --- | --- | --- | --- |
+| ![Home](./public/readme/home.png) | ![Analyze](./public/readme/analyze.png) | ![Analysis Result](./public/readme/analysis-result.png) | ![History](./public/readme/history.png) |
 
 ## Features
 

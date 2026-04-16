@@ -10,9 +10,9 @@ A portfolio-ready Next.js application for chart upload, scenario-based OpenAI an
 
 ## Preview
 
-| Home | Analyze | History |
-| --- | --- | --- |
-| ![Home](./public/readme/home.png) | ![Analyze](./public/readme/analyze.png) | ![History](./public/readme/history.png) |
+| Home | Analyze | Analysis Result | History |
+| --- | --- | --- | --- |
+| ![Home](./public/readme/home.png) | ![Analyze](./public/readme/analyze.png) | ![Analysis Result](./public/readme/analysis-result.png) | ![History](./public/readme/history.png) |
 
 ## Quick Summary
 
