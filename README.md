@@ -16,6 +16,14 @@ Many trading tools either stop at a simple image upload or return vague AI text 
 
 The app intentionally keeps the analysis cautious. It provides scenario-based interpretation only, avoids guaranteed predictions, and includes a financial advice disclaimer in the result UI.
 
+## Technical Whitepaper
+
+For a deeper architecture-level explanation, read the technical whitepaper:
+
+- [English Whitepaper](./docs/technical-whitepaper-en.md)
+- [한국어 기술 백서](./docs/technical-whitepaper-ko.md)
+- [日本語 技術ホワイトペーパー](./docs/technical-whitepaper-ja.md)
+
 ## Core Features
 
 - Chart screenshot upload with drag-and-drop and file picker support
@@ -85,6 +93,10 @@ components/
 lib/
   analysis-history.ts       localStorage history helpers
   utils.ts                  Shared utility helpers
+docs/
+  technical-whitepaper-en.md
+  technical-whitepaper-ko.md
+  technical-whitepaper-ja.md
 public/
   ads.txt                   Google AdSense verification file
   readme/                   README screenshot assets

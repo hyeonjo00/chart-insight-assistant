@@ -16,6 +16,14 @@ Chart Insight Assistant는 차트 스크린샷을 업로드하고, OpenAI 기반
 
 분석은 항상 보수적인 시나리오 기반 해석을 목표로 합니다. 미래 가격을 보장하지 않고, 화면에도 투자 조언이 아니라는 안내를 포함합니다.
 
+## 기술 백서
+
+전체 기술 백서에는 아키텍처, API 파이프라인, OpenAI 프롬프트 전략, 구조화 출력 계약, 로컬 히스토리 모델, AdSense 준비 구조, 보안 설계, 현재 한계, 로드맵을 정리했습니다.
+
+- [한국어 기술 백서 읽기](./docs/technical-whitepaper-ko.md)
+- [English Whitepaper](./docs/technical-whitepaper-en.md)
+- [日本語 技術ホワイトペーパー](./docs/technical-whitepaper-ja.md)
+
 ## 주요 기능
 
 - 다크 테마 기반의 반응형 UI
@@ -87,6 +95,10 @@ components/
 lib/
   analysis-history.ts       localStorage 히스토리 헬퍼
   utils.ts                  공용 유틸
+docs/
+  technical-whitepaper-en.md
+  technical-whitepaper-ko.md
+  technical-whitepaper-ja.md
 public/
   ads.txt                   AdSense 인증 파일
   readme/                   README 스크린샷

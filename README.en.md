@@ -16,6 +16,14 @@ The app lets a user upload a chart screenshot, preview it, run a cautious AI int
 
 This project is built to feel like a real product starting point. It includes server-side API handling, image validation, local persistence, deployment notes, AdSense preparation, multilingual documentation, and screenshots for portfolio presentation.
 
+## Technical Whitepaper
+
+The full technical whitepaper explains the architecture, API pipeline, OpenAI prompting strategy, structured output contract, local history model, AdSense preparation, security decisions, limitations, and roadmap.
+
+- [Read the English technical whitepaper](./docs/technical-whitepaper-en.md)
+- [한국어 기술 백서](./docs/technical-whitepaper-ko.md)
+- [日本語 技術ホワイトペーパー](./docs/technical-whitepaper-ja.md)
+
 ## Feature Highlights
 
 - Clean dark interface with responsive layouts
@@ -86,6 +94,10 @@ components/
 lib/
   analysis-history.ts       localStorage helpers
   utils.ts                  Shared utility helpers
+docs/
+  technical-whitepaper-en.md
+  technical-whitepaper-ko.md
+  technical-whitepaper-ja.md
 public/
   ads.txt                   AdSense verification file
   readme/                   README screenshots

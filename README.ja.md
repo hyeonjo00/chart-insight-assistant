@@ -16,6 +16,14 @@ Chart Insight Assistant は、チャート画像をアップロードし、OpenA
 
 分析は常に慎重なシナリオベースの解釈を前提にしています。将来の値動きを保証せず、結果 UI には投資助言ではないことを示す免責文も含まれています。
 
+## 技術ホワイトペーパー
+
+技術ホワイトペーパーでは、アーキテクチャ、API パイプライン、OpenAI プロンプト戦略、構造化出力契約、ローカル履歴モデル、AdSense 対応、セキュリティ設計、現在の制限、ロードマップを整理しています。
+
+- [日本語 技術ホワイトペーパーを読む](./docs/technical-whitepaper-ja.md)
+- [English Whitepaper](./docs/technical-whitepaper-en.md)
+- [한국어 기술 백서](./docs/technical-whitepaper-ko.md)
+
 ## 主な機能
 
 - ダークテーマのレスポンシブ UI
@@ -87,6 +95,10 @@ components/
 lib/
   analysis-history.ts       localStorage 履歴ヘルパー
   utils.ts                  共通ユーティリティ
+docs/
+  technical-whitepaper-en.md
+  technical-whitepaper-ko.md
+  technical-whitepaper-ja.md
 public/
   ads.txt                   AdSense 確認ファイル
   readme/                   README スクリーンショット
